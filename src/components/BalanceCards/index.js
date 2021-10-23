@@ -8,7 +8,7 @@ const BalanceCards = () => {
         <Grid container spacing={2} sx={{marginBottom: "30px"}}>
            <Grid item xs={4}>
                <Card>
-                  <Box sx={{bgcolor:"info.main", color: "white"}}>
+                  <Box sx={{bgcolor:"info.main", color: "red"}}>
                       <CardContent>
                               <Typography variant="h5" component="div">
                                   {initialAmount}$
